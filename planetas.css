@@ -1,0 +1,158 @@
+body{
+    background-color: #05030D;
+    min-height: 100vh;
+
+}
+
+.g{
+    display: flex;
+    margin-top: 10px;
+}
+
+#m{
+    max-height:0px;
+
+
+}
+.vol{
+    display: flex;
+}
+
+.mm{
+    color: white;
+    opacity: 50%;
+    font-size: 70%;
+    line-height: 95%;
+    margin-top: 25px;
+    margin-left: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.t{
+    margin-top: 10%;
+}
+
+#ti1{
+    color: white;
+    font-weight: bolder;
+    font-size: 100%;
+    line-height: 110%;
+
+}
+
+#ti2{
+    color: white;
+    font-weight: bolder;
+    font-size: 250%;
+    line-height: 95%;
+}
+
+.asa{
+    width: 20%;
+}
+
+.capo{
+        color: white;
+        font-weight: bolder;
+        font-size: 100%;
+        line-height: 95%;
+}
+
+.ss{
+    display: flex;
+}
+
+.mip{
+    min-height: 15px;
+    max-height: 5px;
+}
+
+.at{
+    display: flex;
+}
+
+.ti4{
+    color: white;
+    opacity: 50%;
+    font-size: 70%;
+    line-height: 95%;
+    margin-top: 5%;
+    margin-left: 5px;
+
+}
+
+p{
+    margin-top: 5%;
+    color: white;
+    font-size: 100%;
+    line-height: 130%;
+    opacity: 80%;
+}
+
+@media screen and (max-width:767px){
+    
+    
+
+  }
+  
+  @media screen and (min-width:768px) and (max-width:1023px){
+
+    #ti1 {
+        font-size: 120%;
+    }
+
+    #ti2 {
+        font-size: 270%;
+    }
+
+    .capo{
+        font-size: 120%;
+    }
+    .ti4,.mm{
+        font-size: 90%;
+    }
+    p{
+        font-size: 125%;
+    }
+    .mip{
+        min-height: 18px
+    }
+  }
+  
+  
+  @media screen and (min-width:1024px){
+    #ti1 {
+        font-size: 150%;
+    }
+    #ti2 {
+        font-size: 290%;
+    }
+
+    .capo{
+        font-size: 150%;
+    }
+
+    .ti4,.mm{
+        font-size: 120%;
+    }
+
+    .g{
+        display: none;
+    }
+    
+    .tt{
+        height: 320px;
+    }
+
+    p{
+        font-size: 150%;
+    }
+    .mip{
+        min-height: 20px
+    }
+  }
